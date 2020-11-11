@@ -3,3 +3,12 @@ Visual Studio Code
 2.Intelephense
 3.Prettier
 4.Snippet
+
+var_dump($data);
+
+bisa diganti dengan
+
+d($data);
+dd($data);
+
+agar tampilan lebih rapih
