@@ -19,4 +19,12 @@
               <a href="" class="btn btn-danger">Delete</a>
               <br><br>
               <a href="/komik" class="btn btn-primary">
-                <- Kembali Ke Daftar Komik</a> </div> </div> </div> </div> </div> </div> </div> <?= $this->endSection(); ?>
+                Kembali Ke Daftar Komik</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<?= $this->endSection(); ?>
