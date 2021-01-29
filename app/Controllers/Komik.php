@@ -132,6 +132,7 @@ class Komik extends BaseController
         if ($komik['sampul'] != 'no_document.jpg') {
             //Hapus Gambar Di Folder
             unlink('img/' . $komik['sampul']);
+            $this->komikModel->delete($id);
         } else {
             //Menghapus Data Di Database
             $this->komikModel->delete($id);
